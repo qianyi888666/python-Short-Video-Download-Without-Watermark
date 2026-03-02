@@ -16,9 +16,9 @@ except ImportError:
 class VideoWatermarkClient:
     """视频去水印API客户端"""
     
-    def __init__(self, client_id: str = "202037162", 
-                 client_secret_key: str = "32CAF695EED14BA145512443BBB3229C4501F22384B8997806",
-                 base_url: str = "http://qsy.ppt6.top/api/dsp"):
+    def __init__(self, client_id: str = "demo_client_id_12345", 
+                 client_secret_key: str = "demo_secret_key_abcdef123456789",
+                 base_url: str = "https://api.example.com/video/dsp"):
         """初始化API客户端
         
         Args:
