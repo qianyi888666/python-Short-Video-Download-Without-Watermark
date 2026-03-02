@@ -206,17 +206,10 @@ m. 切换到模拟模式（当前: 真实模式)
 ```
 video_watermark_remover/
 ├── interactive_tool_improved.py    # 主程序
-├── 视频去水印工具.exe            # 独立可执行文件
-├── 使用说明.md                   # 简洁使用指南
 ├── README.md                     # 项目说明文档
-├── 打包验证报告.md               # 打包验证报告
 ├── requirements.txt              # 依赖列表
 ├── pyproject.toml              # 项目配置
-├── build_exe.spec              # 打包配置文件
 ├── .gitignore                  # Git忽略文件
-├── downloads/                  # 视频下载目录（自动创建）
-├── dist/                      # 打包输出目录
-├── build/                     # 打包临时目录
 └── src/                       # 核心功能模块
     ├── api_client.py           # API客户端
     ├── cli.py                 # 命令行界面
