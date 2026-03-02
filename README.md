@@ -2,6 +2,13 @@
 
 🎬 一个功能强大的视频去水印工具，支持抖音、快手、小红书等主流平台，提供直观的交互式界面和丰富的功能选项。
 
+## 🌟 项目信息
+
+- **项目名称**：python-Short-Video-Download-Without-Watermark
+- **开发者**：厉温
+- **开源协议**：MIT
+- **项目仓库**：[https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark](https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark)
+
 ## 📋 目录
 
 - [项目概述](#项目概述)
@@ -82,9 +89,19 @@
 ### 方式二：从源码运行
 
 1. 确保已安装Python 3.8或更高版本
-2. 下载项目源码
+2. 克隆项目仓库：
+   ```bash
+   git clone https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark.git
+   cd python-Short-Video-Download-Without-Watermark
+   ```
 3. 安装依赖：`pip install -r requirements.txt`
 4. 运行主程序：`python interactive_tool_improved.py`
+
+### 方式三：下载发布版本
+
+1. 访问 [GitHub Releases](https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark/releases) 页面
+2. 下载最新版本的 `视频去水印工具.exe`
+3. 双击运行即可使用
 
 ## 使用方法
 
@@ -273,12 +290,20 @@ A: 可以通过项目仓库的Issue功能提交问题报告。
 
 ### 联系方式
 
-- **项目仓库**：[GitHub链接]
-- **问题反馈**：[Issues页面]
-- **使用交流**：[讨论区]
+- **项目仓库**：[https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark](https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark)
+- **问题反馈**：[Issues页面](https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark/issues)
+- **使用交流**：[讨论区](https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark/discussions)
+
+#### 开发者信息
+
+- **开发者**：厉温
+- **联系方式**：QQ 919373260
+- **GitHub**：[qianyi888666](https://github.com/qianyi888666)
 
 ---
 
-🎬 **立即体验**：下载 `视频去水印工具.exe` 开始使用！
+🎬 **立即体验**：
+- 下载 [视频去水印工具.exe](https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark/releases) 开始使用！
+- 或克隆仓库：`git clone https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark.git`
 
 **最后更新**：2026年3月2日
