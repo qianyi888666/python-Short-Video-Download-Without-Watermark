@@ -207,6 +207,7 @@ m. 切换到模拟模式（当前: 真实模式)
 video_watermark_remover/
 ├── interactive_tool_improved.py    # 主程序
 ├── README.md                     # 项目说明文档
+├── API配置说明.md               # API配置指南
 ├── requirements.txt              # 依赖列表
 ├── pyproject.toml              # 项目配置
 ├── .gitignore                  # Git忽略文件
