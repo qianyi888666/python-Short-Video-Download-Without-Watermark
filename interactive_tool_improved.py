@@ -31,15 +31,15 @@ class ImprovedVideoWatermarkClient:
     
     def __init__(self):
         """初始化客户端，配置多个API地址"""
-        self.client_id = "202037162"
-        self.client_secret_key = "32CAF695EED14BA145512443BBB3229C4501F22384B8997806"
+        self.client_id = "demo_client_id_12345"
+        self.client_secret_key = "demo_secret_key_abcdef123456789"
         
         # 配置多个API地址，按优先级排序
         self.api_endpoints = [
-            "https://qsy.ppt6.top/api/dsp",  # HTTPS版本
-            "http://qsy.ppt6.top/api/dsp",   # HTTP版本
-            "https://api.qsy.ppt6.top/dsp",  # 备用域名
-            "http://api.qsy.ppt6.top/dsp"    # 备用域名HTTP
+            "https://api.example.com/video/dsp",  # 主要API地址
+            "https://backup-api.example.com/dsp",  # 备用API地址
+            "http://api.example.com/video/dsp",   # HTTP版本
+            "https://api.fallback.com/dsp"        # 备用域名
         ]
         
         self.session = requests.Session()
