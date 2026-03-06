@@ -89,30 +89,7 @@
 
 ## 安装指南
 
-### 方式一：使用独立可执行文件（推荐）
-
-1. 下载 `视频去水印工具.exe` 文件
-2. 双击运行即可使用，无需安装任何依赖
-
-**优点**：
-- 无需安装Python环境
-- 包含所有必要依赖
-- 体积适中（约44MB）
-- 即开即用
-- 完美图标显示
-
-### 方式二：从源码运行
-
-1. 确保已安装Python 3.8或更高版本
-2. 克隆项目仓库：
-   ```bash
-   git clone https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark.git
-   cd python-Short-Video-Download-Without-Watermark
-   ```
-3. 安装依赖：`pip install -r requirements_pack.txt`
-4. 运行主程序：`python gui_app.py`
-
-### 方式三：下载发布版本
+### 下载发布版本
 
 1. 访问 [GitHub Releases](https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark/releases) 页面
 2. 下载最新版本的 `视频去水印工具.exe`
