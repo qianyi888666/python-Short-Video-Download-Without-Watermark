@@ -66,7 +66,7 @@
 - 避免文件重复覆盖
 - 支持自定义下载路径
 
-### �️ 封面预览功能
+### 🖼️ 封面预览功能
 - 实时显示视频封面图片
 - 支持封面图片预览窗口
 - 保持宽高比适配显示
@@ -79,7 +79,7 @@
 - 路径浏览和选择功能
 - 配置自动保存和加载
 
-### � 多重保障
+### 🔄 多重保障
 - 多API地址自动切换
 - 模拟模式支持（无需网络）
 - 完善的错误处理机制
@@ -92,7 +92,7 @@
 ### 下载发布版本
 
 1. 访问 [GitHub Releases](https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark/releases) 页面
-2. 下载最新版本的 `视频去水印工具.exe`
+2. 下载最新版本的 [视频去水印工具.exe](https://github.com/qianyi888666/python-Short-Video-Download-Without-Watermark/releases)
 3. 双击运行即可使用
 
 ## 使用方法
@@ -148,12 +148,6 @@
 | 📕 小红书 | ✅ 完全支持 | `http://xhslink.com/[a-zA-Z0-9/]+` | `http://xhslink.com/o/8KJF6Dy0t6l` |
 
 ## 使用场景
-
-### 📱 移动端用户
-- 保存喜欢的短视频到本地
-- 去除水印后二次创作
-- 收存优质内容素材
-- 建立个人视频收藏库
 
 ### 💻 桌面端用户
 - 批量处理视频资源
@@ -224,23 +218,6 @@
 4. **快捷操作**：使用界面上的快捷按钮快速下载、复制链接等
 5. **批量处理**：可逐个处理多个视频，提高效率
 6. **链接识别**：程序会自动从分享文本中提取链接，支持各种格式
-
-## 文件结构
-
-```
-video_watermark_remover/
-├── src/                          # 核心功能模块
-│   ├── __init__.py
-│   ├── api_client.py              # API客户端
-│   ├── cli.py                    # 命令行界面
-│   ├── exceptions.py              # 异常处理
-│   └── url_parser.py              # URL解析
-├── .gitignore                    # Git忽略配置
-├── README.md                     # 项目说明文档
-├── config.json                   # 用户配置文件
-├── gui_app.py                   # 图形界面主程序
-└── requirements_pack.txt          # 依赖列表
-```
 
 ## 更新日志
 
