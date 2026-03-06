@@ -79,7 +79,7 @@
 - 路径浏览和选择功能
 - 配置自动保存和加载
 
-### �🔄 多重保障
+### � 多重保障
 - 多API地址自动切换
 - 模拟模式支持（无需网络）
 - 完善的错误处理机制
@@ -252,21 +252,17 @@
 
 ```
 video_watermark_remover/
-├── gui_app.py                  # 图形界面主程序
-├── interactive_tool_improved.py   # 命令行界面程序
-├── README.md                   # 项目说明文档
-├── API配置说明.md              # API配置指南
-├── requirements_pack.txt       # 依赖列表（打包用）
-├── video_watermark_remover.spec # PyInstaller配置文件
-├── pyproject.toml             # 项目配置
-├── .gitignore                 # Git忽略文件
-├── config.json                # 用户配置文件（自动生成）
-└── src/                      # 核心功能模块
-    ├── api_client.py          # API客户端
-    ├── cli.py                # 命令行界面
-    ├── exceptions.py          # 异常处理
-    ├── url_parser.py          # URL解析
-    └── __init__.py          # 包初始化
+├── src/                          # 核心功能模块
+│   ├── __init__.py
+│   ├── api_client.py              # API客户端
+│   ├── cli.py                    # 命令行界面
+│   ├── exceptions.py              # 异常处理
+│   └── url_parser.py              # URL解析
+├── .gitignore                    # Git忽略配置
+├── README.md                     # 项目说明文档
+├── config.json                   # 用户配置文件
+├── gui_app.py                   # 图形界面主程序
+└── requirements_pack.txt          # 依赖列表
 ```
 
 ## 更新日志
